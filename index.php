@@ -6,7 +6,7 @@
 <title>TipsNote : GitHub Pages Sample</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.4/marx.css">
 </head>
-
+<input type="button" onclick="location.href='https://pure-lake-58882.herokuapp.com/home.php'" value="new">
 <?php
   $pg_conn = pg_connect("host=ec2-184-73-243-101.compute-1.amazonaws.com dbname=dace40ccbaitp9
 user=patmewgcbrrkfq password=ca9e34b51fba3ac0467245d3e7c619ce342c414d08848cd434fcefc6907a57dd");
