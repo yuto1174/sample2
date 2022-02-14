@@ -8,5 +8,18 @@
 </head>
 <input type="button" onclick="location.href='https://pure-lake-58882.herokuapp.com/home.php'" value="new">
 
+  <form action="" method="POST" enctype="multipart/form-data">
+            	<dl>
+            		<label for="rendou">学籍番号:<?php echo $_SESSION['playerid']; ?></label>
+            		<dt><label for="comment"></label></dt>
+            		<dd>
+<textarea id="comment" name="comment" cols="50" rows="5" placeholder="ここに記入してください"></textarea>
+            		</dd>
+            	</dl>
+                <div><input type="submit" value="送信する" /></div>
+            	<!--<div><input type="submit" onclick="location.href='dbconnect.php'" value="送信" /></div>
+                <div><input type="button" onclick="location.href='dbconnect.php'" value="送信"></div>-->
+            </form>
+  
 </body>
 </html>
